@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Why Website Speed Matters for Local SEO | Terrova Group</title>
+  <meta name="description" content="A slow website quietly costs you calls and rankings. Here is why load time matters for local search, what actually slows a site down, and how to fix it." />
+  <link rel="canonical" href="https://terrovagroup.com/blog/why-website-speed-matters-for-local-seo/" />
+  <meta name="theme-color" content="#080808" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Terrova Group" />
+  <meta property="og:title" content="Why Website Speed Matters for Local SEO (And What Actually Slows You Down)" />
+  <meta property="og:description" content="A slow website quietly costs you calls and rankings. Here is why load time matters for local search and how to fix it." />
+  <meta property="og:url" content="https://terrovagroup.com/blog/why-website-speed-matters-for-local-seo/" />
+  <meta property="og:image" content="https://terrovagroup.com/logo-dark.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="/favicon.png?v=2" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=2" />
+  <link rel="shortcut icon" href="/favicon.ico?v=2" />
+  <link rel="apple-touch-icon" href="/favicon.png?v=2" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Why Website Speed Matters for Local SEO (And What Actually Slows You Down)",
+    "description": "A slow website quietly costs you calls and rankings. Here is why load time matters for local search and how to fix it.",
+    "datePublished": "2026-07-20",
+    "dateModified": "2026-07-20",
+    "author": { "@type": "Organization", "name": "Terrova Group", "url": "https://terrovagroup.com/" },
+    "publisher": { "@type": "Organization", "name": "Terrova Group", "logo": { "@type": "ImageObject", "url": "https://terrovagroup.com/logo-dark.png" } },
+    "mainEntityOfPage": "https://terrovagroup.com/blog/why-website-speed-matters-for-local-seo/",
+    "image": "https://terrovagroup.com/logo-dark.png"
+  }
+  </script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --gold: #C9A84C; --gold-light: #DFC070; --black: #080808;
+      --surface: #111111; --card: #161616; --border: rgba(201,168,76,0.15);
+      --white: #F5F5F2; --muted: #999999;
+      --font-display: 'Cormorant Garamond', serif;
+      --font-body: 'Montserrat', sans-serif;
+    }
+    body { background: var(--black); color: var(--white); font-family: var(--font-body); font-size: 16px; line-height: 1.8; }
+    nav { position: sticky; top: 0; z-index: 1000; padding: 18px 40px; display: flex; align-items: center; justify-content: space-between; background: rgba(8,8,8,0.92); backdrop-filter: blur(24px); border-bottom: 1px solid var(--border); }
+    .nav-logo { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+    .nav-logo img { height: 34px; }
+    .nav-wordmark { display: flex; flex-direction: column; line-height: 1.2; }
+    .nav-wordmark .nw-top { font-weight: 500; font-size: 14px; letter-spacing: 0.35em; color: var(--white); }
+    .nav-wordmark .nw-bot { font-weight: 500; font-size: 8px; letter-spacing: 0.5em; color: var(--gold); text-transform: uppercase; }
+    .nav-links { list-style: none; display: flex; gap: 32px; }
+    .nav-links a { font-size: 12px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); text-decoration: none; transition: color .3s; }
+    .nav-links a:hover, .nav-links a.active { color: var(--gold); }
+    @media (max-width: 720px) { .nav-links li.hide-m { display: none; } nav { padding: 14px 20px; } }
+    article { max-width: 760px; margin: 0 auto; padding: 72px 24px; }
+    .post-date { font-size: 11px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold); margin-bottom: 18px; }
+    h1 { font-family: var(--font-display); font-weight: 500; font-size: clamp(34px, 5.5vw, 52px); line-height: 1.12; margin-bottom: 28px; }
+    h2 { font-family: var(--font-display); font-weight: 500; font-size: 30px; line-height: 1.2; margin: 44px 0 14px; color: var(--gold-light); }
+    p { margin-bottom: 18px; font-weight: 300; color: #d8d8d4; }
+    strong { color: var(--white); font-weight: 600; }
+    .lead { font-size: 18px; color: var(--white); }
+    .cta { margin-top: 56px; background: var(--card); border: 1px solid var(--border); border-radius: 6px; padding: 36px 40px; }
+    .cta h3 { font-family: var(--font-display); font-size: 26px; font-weight: 500; margin-bottom: 10px; }
+    .cta p { font-size: 14px; color: var(--muted); }
+    .cta a { display: inline-block; margin-top: 8px; background: var(--gold); color: var(--black); text-decoration: none; font-size: 12px; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; padding: 14px 28px; border-radius: 3px; }
+    .back { display: inline-block; margin-top: 48px; color: var(--gold); text-decoration: none; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; }
+    footer { border-top: 1px solid var(--border); padding: 36px 24px; text-align: center; font-size: 12px; color: var(--muted); }
+    footer span { color: var(--gold); }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/" class="nav-logo">
+      <img src="/TG-icon-transparent.png" alt="TG" />
+      <div class="nav-wordmark"><span class="nw-top">TERROVA</span><span class="nw-bot">GROUP</span></div>
+    </a>
+    <ul class="nav-links">
+      <li class="hide-m"><a href="/#services">Services</a></li>
+      <li class="hide-m"><a href="/#about">About</a></li>
+      <li><a href="/blog/" class="active">Blog</a></li>
+      <li><a href="/#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <article>
+    <div class="post-date">July 20, 2026 · Local SEO</div>
+    <h1>Why Website Speed Matters for Local SEO (And What Actually Slows You Down)</h1>
+
+    <p class="lead">Someone searches "cosmetic dentist near me" on their phone while sitting in a parking lot. Your listing shows up. They tap your website. Then they wait. Four seconds pass, the page is still blank, and they hit the back button and tap the practice below you. You will never know that happened, but it happens all day long.</p>
+
+    <p>Website speed is one of those things that sounds technical and boring, so most owners ignore it. It is actually one of the most direct connections between your website and your revenue. Here is why it matters, what really causes a slow site, and what to do about it.</p>
+
+    <h2>Google measures speed, and so do your customers</h2>
+    <p>Google uses page experience signals, including how fast your page becomes usable, as part of how it ranks results. It is not the biggest factor in local search, but it is a real one. When two businesses are otherwise close in relevance and reviews, the faster site tends to win the higher spot.</p>
+    <p>The customer side matters even more. Research from Google has consistently shown that the probability of someone leaving a mobile page climbs sharply as load time stretches past three seconds. That is not a ranking penalty. That is a person deciding you are not worth the wait.</p>
+    <p>For a business where one new client is worth thousands of dollars, a home builder, a law firm, a med spa, an exotic car rental company, this is not a rounding error. Losing even a handful of visitors a week to a slow page adds up fast over a year.</p>
+
+    <h2>Mobile is where the damage happens</h2>
+    <p>Most local searches happen on a phone, often on cell data rather than a strong home connection. Your site might feel snappy when you check it on your office desktop on fiber internet. That is not the experience your customer is having on a two year old phone with three bars.</p>
+    <p>Google also evaluates your site primarily based on the mobile version. So the version you rarely look at is the version that gets graded.</p>
+
+    <h2>What actually slows a site down</h2>
+    <p><strong>Huge, uncompressed images.</strong> This is the most common culprit by a mile. A photographer sends over gorgeous 6 megabyte photos of your finished kitchens or your showroom, and somebody uploads them straight to the site. The browser has to download every one of those before the page settles. Those same images can usually be reduced by 80 percent or more with no visible difference.</p>
+    <p><strong>Too many plugins and add ons.</strong> Every chat widget, review carousel, booking popup, tracking pixel, and animation library loads its own code. Individually they seem harmless. Stack twelve of them and your page is downloading more code than it is content. We regularly find sites running plugins nobody has used in two years.</p>
+    <p><strong>Heavy page builders.</strong> Some drag and drop builders generate bloated code behind the scenes. The site looks fine, but the browser has to work much harder than it should to render a fairly simple page.</p>
+    <p><strong>Cheap or overloaded hosting.</strong> If you are paying five dollars a month for hosting, your site is sharing a server with hundreds of other sites. When they get busy, you get slow. Better hosting is one of the rare cases where spending a little more solves the problem outright.</p>
+    <p><strong>Video backgrounds and autoplay media.</strong> Popular with luxury brands, and understandably so. A rental company wants a video of a car pulling away. Just know that a full screen background video is one of the heaviest things you can put on a page, and it should be compressed carefully and never load before the rest of the content.</p>
+
+    <h2>How to find out where you stand</h2>
+    <p>Run your homepage through Google PageSpeed Insights. It is free and takes about a minute. Look at the mobile score and, more importantly, at the load time metrics rather than the overall number. A score in the 90s is excellent. Under 50 on mobile means you are almost certainly losing visitors.</p>
+    <p>Then do the human test. Open your site on your phone, on cell data, not office wifi. Count in your head. If you get past three, you have work to do.</p>
+
+    <h2>The fixes, in order of impact</h2>
+    <p>Start with images, because that is usually where 70 percent of the problem lives. Compress everything, serve them at the size they actually display, and use modern formats. Next, audit your plugins and delete anything you are not actively using. Then look at hosting. Then, if the site is genuinely old or built on a bloated foundation, consider whether a rebuild would cost less than continuing to patch it.</p>
+    <p>One caution: do not chase a perfect score. Going from an eight second load to a two second load transforms your business. Going from 2.0 seconds to 1.7 seconds does very little and can eat weeks. Fix the big things and move on.</p>
+
+    <h2>The bottom line</h2>
+    <p>Speed is not a vanity metric. It is the difference between a person landing on your site and a person landing on your competitor's site. You have already paid, in advertising, in reputation, in word of mouth, to earn that tap. Make sure the page is there when they arrive.</p>
+
+    <div class="cta">
+      <h3>Want to know exactly where you stand?</h3>
+      <p>We run free audits that show you where your business is being missed online, delivered within 24 hours.</p>
+      <a href="/#contact">Get a Free Audit</a>
+    </div>
+
+    <a class="back" href="/blog/">← Back to All Articles</a>
+  </article>
+
+  <footer>© 2026 <span>Terrova Group</span>. All rights reserved.</footer>
+</body>
+</html>
