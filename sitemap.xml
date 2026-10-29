@@ -8,9 +8,15 @@
   </url>
   <url>
     <loc>https://terrovagroup.com/blog/</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://terrovagroup.com/blog/how-to-show-up-on-apple-maps/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://terrovagroup.com/blog/how-to-rank-in-nearby-cities/</loc>
